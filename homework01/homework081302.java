@@ -8,7 +8,6 @@ public class homework081302 {
 		int dice = 0;
         dice = abc.nextInt(3)+1;
         System.out.println("dice값=" + dice);
-        String qwe = "";
         
         String zxc = "";
         zxc = scan.next();

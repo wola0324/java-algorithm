@@ -35,17 +35,20 @@ BMI = 70 / (1.75 * 1.75) = 22.86
       m = cm / 100;
       double bmi = 0;
       bmi = kg / (m * m);
-      
+      String eval = "";
       if (bmi > 30.0) {
-         System.out.println("고도비만");
+    	  eval = "고도비만";
+         
       } else if (bmi > 25.0) {
-         System.out.println("비만");
+    	  eval = "비만";
       } else if (bmi > 23.0) {
-         System.out.println("과체중");
+    	  eval = "과체중";
       } else if(bmi > 18.5) {
-         System.out.println("정상");
+    	  eval = "정상";
+      } else {
+    	  eval = "저체중";
       }
-      
+      System.out.println(eval);
    }
 
 }
